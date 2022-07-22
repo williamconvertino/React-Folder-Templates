@@ -16,7 +16,6 @@ Example component called MyComponent:
  Example hook called MyHook:
 
 <i>Folder where the command was called</i>
-  
 └───MyHook
     │   MyHook.js
     │   index.js
