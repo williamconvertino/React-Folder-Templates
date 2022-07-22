@@ -4,11 +4,10 @@ This configuration file will allow you to create React components and hooks with
 
 ## Components and Hooks
 
-```
-Example component called MyComponent:
 <pre>
+Example component called MyComponent:
+
 <i>Folder where the command was called</i>
-</pre>
 └───MyComponent
     │   MyComponent.js
     |   MyComponent.css
@@ -16,13 +15,12 @@ Example component called MyComponent:
  
  Example hook called MyHook:
 
-<pre>
 <i>Folder where the command was called</i>
-</pre>  
+  
 └───MyHook
     │   MyHook.js
     │   index.js
-```
+</pre>
 
 To use, download the Folder Templates extension by Huuums on VSCode. Then copy the content of settings.json into the settings for Folder Templates (found in Folder Templates -> Extension Settings -> Edit in settings.json).
 
