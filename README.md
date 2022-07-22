@@ -1,6 +1,6 @@
 # React-Folder-Templates
 
-This configuration file will allow you to create React components and hooks with the nested index.js based file structure (see example below).
+This configuration file will allow you to create React components and hooks in VSCode with the nested index.js based file structure (see example below).
 
 ## Components and Hooks
 
@@ -21,7 +21,7 @@ Example component called MyComponent:
     │   index.js
 </pre>
 
-To use, download the Folder Templates extension by Huuums on VSCode. Then copy the content of settings.json into the settings for Folder Templates (found in Folder Templates -> Extension Settings -> Edit in settings.json).
+To use, download the Folder Templates extension by Huuums. Then copy the content of settings.json into the settings for Folder Templates (found in Folder Templates -> Extension Settings -> Edit in settings.json).
 
 To use the Folder Templates extension, you can either access the "Create new tempated folder" command from the command palette or from the context menu. Then, select "React Component" or "React Hook," depending on which one you would like to create. You should be prompted to input the name of your component/hook, and it should generate the file structure from above.
 
