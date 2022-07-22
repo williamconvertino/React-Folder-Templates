@@ -6,17 +6,19 @@ This configuration file will allow you to create React components and hooks with
 
 ```
 Example component called MyComponent:
-
-_Folder where the command was called_ 
+<pre>
+<i>Folder where the command was called</i>
+</pre>
 └───MyComponent
     │   MyComponent.js
     |   MyComponent.css
     │   index.js
  
- 
  Example hook called MyHook:
- 
-_Folder where the command was called_   
+
+<pre>
+<i>Folder where the command was called</i>
+</pre>  
 └───MyHook
     │   MyHook.js
     │   index.js
@@ -33,7 +35,9 @@ There is also additional functionality for creating a default project structure 
 ```
 Example component called MyComponent
 
-_Folder where the command was called_
+<pre>
+<i>Folder where the command was called</i>
+</pre>
 └───src
 └───folder1
 │   └───shared
