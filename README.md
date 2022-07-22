@@ -30,18 +30,16 @@ To use the Folder Templates extension, you can either access the "Create new tem
 
 There is also additional functionality for creating a default project structure with the following layout:
 
-```
+<pre>
 Example component called MyComponent
 
-<pre>
 <i>Folder where the command was called</i>
-</pre>
 └───src
 └───folder1
 │   └───shared
 │   └───site
 | jsconfig.json
-```
+</pre>
 
 The jsconfig.json file will allow your shared folder to be accessed from anywhere in your project, reducing the complexity of your import statements.
 
