@@ -1,0 +1,103 @@
+{
+    "folderTemplates.structures": [
+        {
+            "name": "React Component",
+            "omitParentDirectory": true,
+            "structure": [
+                {
+                    "fileName": "<FTName>",
+                    "template": "EmptyDirectory"
+                },
+                {
+                "fileName": "<FTName>/<FTName>.js",
+                "template": "JS Functional Component"
+                },
+                {
+                "fileName": "<FTName>/<FTName>.css",
+                "template": "JS Functional Component CSS"
+                },
+                {
+                "fileName": "<FTName>/index.js",
+                "template": "Index File"
+                }
+            ]
+        },
+        {
+            "name": "React Hook",
+            "omitParentDirectory": true,
+            "structure": [
+                {
+                    "fileName": "<FTName>",
+                    "template": "EmptyDirectory"
+                },
+                {
+                "fileName": "<FTName>/<FTName>.js",
+                "template": "JS Hook"
+                },
+                {
+                "fileName": "<FTName>/index.js",
+                "template": "Index File"
+                }
+            ]
+        },
+        {
+            "name": "Shared Project Structure",
+            "omitParentDirectory": true,
+            "structure": [
+                {
+                    "fileName": "src",
+                    "template": "EmptyDirectory"
+                },
+                {
+                    "fileName": "src/shared",
+                    "template": "EmptyDirectory"
+                },
+                {
+                    "fileName": "src/site",
+                    "template": "EmptyDirectory"
+                },
+                {
+                    "fileName": "jsconfig.json",
+                    "template": "Shared Config"
+                }
+            ]
+        },
+    ],
+    "folderTemplates.fileTemplates": {
+        "JS Functional Component": [
+            "import React from 'react'",
+            "",
+            "export default function <FTName> () {",
+            "",
+            "\treturn (",
+            "\t\t<div>",
+            "",
+            "\t\t</div>",
+            "\t)",
+            "}"
+        ],
+        "JS Functional Component CSS": [
+            ".<FTName> {",
+            "",
+            "}"
+        ],
+        "Index File": "export { default } from './<FTName>'",
+        "JS Hook": [
+            "export default function <FTName> () {",
+            "",
+            "}"
+        ],
+        "Shared Config": [
+            "{",
+            "\t\"compilerOptions\":",
+            "\t{",
+            "\t\t\"baseURL\": \"./src\"",
+            "\t},",
+            "\t\"include\": [\"src/**/*\"]",
+            "}"
+        ],
+        "Disable Browser Launch": [
+            "BROWSER=none"
+        ]
+    }
+}
