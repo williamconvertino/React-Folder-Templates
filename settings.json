@@ -91,7 +91,7 @@
             "{",
             "\t\"compilerOptions\":",
             "\t{",
-            "\t\t\"baseURL\": \"./src\"",
+            "\t\t\"baseUrl\": \"./src\"",
             "\t},",
             "\t\"include\": [\"src/**/*\"]",
             "}"
