@@ -23,6 +23,24 @@
             ]
         },
         {
+            "name": "React Component (No CSS)",
+            "omitParentDirectory": true,
+            "structure": [
+                {
+                    "fileName": "<FTName>",
+                    "template": "EmptyDirectory"
+                },
+                {
+                "fileName": "<FTName>/<FTName>.js",
+                "template": "JS Functional Component (No CSS)"
+                },
+                {
+                "fileName": "<FTName>/index.js",
+                "template": "Index File"
+                }
+            ]
+        },
+        {
             "name": "React Hook",
             "omitParentDirectory": true,
             "structure": [
@@ -65,6 +83,19 @@
     ],
     "folderTemplates.fileTemplates": {
         "JS Functional Component": [
+            "import React from 'react'",
+            "import './<FTName>.css'",
+            "",
+            "export default function <FTName> () {",
+            "",
+            "\treturn (",
+            "\t\t<div>",
+            "",
+            "\t\t</div>",
+            "\t)",
+            "}"
+        ],
+        "JS Functional Component (No CSS)": [
             "import React from 'react'",
             "",
             "export default function <FTName> () {",
